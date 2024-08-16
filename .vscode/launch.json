@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Othello",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.Othello",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloBoard",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloBoard",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloController",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloController",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloControllerHumanVSGreedy",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloControllerHumanVSGreedy",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloControllerHumanVSHuman",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloControllerHumanVSHuman",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloControllerHumanVSRandom",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloControllerHumanVSRandom",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloControllerRandomVSGreedy",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloControllerRandomVSGreedy",
+            "projectName": "Assignment1"
+        },
+        {
+            "type": "java",
+            "name": "OthelloControllerRandomVSRandom",
+            "request": "launch",
+            "mainClass": "ca.utoronto.utm.assignment1.othello.OthelloControllerRandomVSRandom",
+            "projectName": "Assignment1"
+        }
+    ]
+}
