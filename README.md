@@ -12,4 +12,4 @@ In mode 2, the player versus the computer, whose moves will be generated at rand
 
 ### Mode 3: Human vs Greedy
 
-In this mode, the player versus the computer, which follows a greedy strategy. This means the computer's moves are optimized to take the most opponent pieces as it can on each turn and win the game as soon as possible.
+For mode 3, the player versus the computer, which follows a greedy strategy. Thus, the computer's moves are optimized to take the most opponent pieces as it can on each turn and win the game as soon as possible.
