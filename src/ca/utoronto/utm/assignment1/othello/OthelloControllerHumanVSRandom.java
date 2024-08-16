@@ -43,8 +43,15 @@ public class OthelloControllerHumanVSRandom extends OthelloControllerHumanVSHuma
 			if (whosTurn == OthelloBoard.P2)
 				move = player2.getMove();
 
+			boolean validMove = othello.move(move.getRow(), move.getCol());
+			if (!validMove) {
+				System.out.println("Invalid move for Player " + whosTurn + "! Please try again.");
+				continue; // Skip to the next iteration to prompt the player again
+			}
+
+			
 			this.reportMove(whosTurn, move);
-			othello.move(move.getRow(), move.getCol());
+			//othello.move(move.getRow(), move.getCol());
 		}
 		this.reportFinal();
 	}
